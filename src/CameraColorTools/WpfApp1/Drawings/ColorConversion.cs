@@ -157,6 +157,41 @@ namespace WpfApp1.Drawings
                 );
         }
 
+        public static (double x, double y, double z) Rgb2Xyz((double red, double green, double blue) color, double factor = 1.0)
+        {
+            // https://mina86.com/2019/srgb-xyz-conversion/
+
+            var primes = (red: color.red / factor, green: color.green / factor, blue: color.blue / factor);
+            return primes;
+            //var primes = (red: color.red / factor, green: color.green / factor, blue: color.blue / factor);
+            //var c = (max: primes.ToArray<double>().Max(), min: primes.ToArray<double>().Min());
+            //var diff = c.max - c.min;
+            //var lightness = (c.max + c.min) / 2.0;
+
+            //return (
+            //    hue: ((diff switch
+            //    {
+            //        0.0 => 0.0,
+            //        _ when c.max == primes.red => ((primes.green - primes.blue) / diff) % 6.0,
+            //        _ when c.max == primes.green => ((primes.blue - primes.red) / diff) + 2.0,
+            //        _ when c.max == primes.blue => ((primes.red - primes.green) / diff) + 4.0,
+            //        _ => 0.0
+            //    } * 60) + 360) % 360,
+            //    saturation: diff switch
+            //    {
+            //        0.0 => 0.0,
+            //        _ => diff / (1.0 - Math.Abs(2 * lightness - 1))
+            //    },
+            //    lightness: lightness
+            //    );
+        }
+        public static (double red, double green, double blue) Xyz2Rgb((double x, double y, double z)color, double factor = 1.0)
+        {
+            var primes = ( color.x * factor,  color.y * factor,  color.z * factor);
+            return primes;
+        }
+
+
 
         public static (double red, double green, double blue) Cmyk2Rgb((double cyan, double magenta, double yellow, double black) color, double factor = 1.0) =>
             (

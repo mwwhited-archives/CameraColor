@@ -44,12 +44,14 @@ namespace WpfApp1.ViewModel
                 var cmyk = ColorConversion.Rgb2Cmyk(current, 255.0);
                 var ryb = ColorConversion.Rgb2Ryb(current, 255.0);
                 var cmy = ColorConversion.Rgb2Cmy(current, 255.0);
+                var xyz = ColorConversion.Rgb2Xyz(current, 255.0);
 
                 _color.HSL.Set(hsl);
                 _color.HSV.Set(hsv);
                 _color.CMYK.Set(cmyk);
                 _color.RYB.Set(ryb);
                 _color.CMY.Set(cmy);
+                _color.XYZ.Set(xyz);
 
                 _skip = false;
             }
