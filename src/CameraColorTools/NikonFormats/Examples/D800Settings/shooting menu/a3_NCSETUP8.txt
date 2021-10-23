@@ -1,0 +1,294 @@
+Playback Options----
+
+Playback Folder: All
+Playback Display Options:
+	Focus Point: on
+	None: on
+	Highlights: on
+	RGB histagram: on
+	Shooting Data: on
+	Overview: on
+Image Review: Off
+After Delete: show next
+Rotate All: Oon
+Slide show: Start
+
+Shooting Menu ----
+Shooting menu bank: A
+	A: ABCDEFGHIJKLMNOPQRST
+	B: SB
+	C: SC
+	D: SD
+
+--A--
+
+Extended menu banks: On
+Storage Folder: 121
+File naming: MWW
+Primary Slot: SD
+Secondary Slot: Overflow
+Image Quality: RAW
+Image Size: Large (disabled)
+Image Area
+	Auto Crop: Off
+	Choose image area: 1.2
+JPEG Compression: optimal quality
+NEF Recording: On (Compressed)
+NEF bit depth: 12bit
+White balance: Auto2
+Set Picture Control: Neutral
+Colr space: Adobe
+Active D-Lighting: Extra High
+HDR: Off
+Vignette control: High
+Auto distortion control: off (disabled)
+Long exposure NR: ON
+High ISO NR: HIGH
+iso settings:
+	1000
+	Auto: ON
+	Max: 5000
+	Min: 1/4000
+Muliple Exposure: On
+	Shots: 3
+	Auto Gain: On
+Interval timer shooting: now
+Time-lapse photography: off
+movie settings: 
+	1080@30
+	movie quality: Normal
+	microphone: 10
+	destination: CF
+
+-- B --
+
+Extended menu banks: On
+Storage Folder: 120
+File naming: DSC
+Primary Slot: SD
+Secondary Slot: Overflow
+Image Quality: Fine
+Image Size: Large
+Image Area
+	Auto Crop: On
+	Choose image area: FX
+JPEG Compression: Size Priority
+NEF Recording: On (lossless compression)
+NEF bit depth: 14bit
+White balance: Auto1
+Set Picture Control: SD Standard
+Colr space: sRGB
+Active D-Lighting: Off
+HDR: Off
+Vignette control: Normal
+Auto distortion control: off (disabled)
+Long exposure NR: off
+High ISO NR: off
+iso settings:
+	3200
+	Auto: off
+	Max: 6400 (disabled)
+	Min: auto (disabled)
+Muliple Exposure: off
+Interval timer shooting: off
+Time-lapse photography: off
+movie settings: 
+	1080@25
+	movie quality: high
+	microphone: auto
+	destination: SD
+
+-- C --
+
+Extended menu banks: Off
+Storage Folder: 120
+File naming: AAA
+Primary Slot: SD
+Secondary Slot: Overflow
+Image Quality: Fine
+Image Size: Large
+Image Area
+	Auto Crop: On
+	Choose image area: FX
+JPEG Compression: Size Priority
+NEF Recording: On (lossless compression)
+NEF bit depth: 14bit
+White balance: Auto1
+Set Picture Control: SD Standard
+Colr space: sRGB
+Active D-Lighting: Off
+HDR: Off
+Vignette control: Normal
+Auto distortion control: off (disabled)
+Long exposure NR: off
+High ISO NR: off
+iso settings:
+	3200
+	Auto: off
+	Max: 6400 (disabled)
+	Min: auto (disabled)
+Muliple Exposure: off
+Interval timer shooting: off
+Time-lapse photography: off
+movie settings: 
+	1080@25
+	movie quality: high
+	microphone: auto
+	destination: SD
+
+
+custom settings menu ----
+
+custom settings bank: B
+	A: Standard
+	B: Lensbaby
+	C: CSC
+	D: CSD
+A1 af-c priority: release
+A2 af-s priroity: Focus
+A3 focus tracking with lockon: 3-Normal
+A4 af activation: On (shutter AF/on)
+A5 AF point illumination: auto
+A6 focus point wrap-around: off
+A7 number of focus points: AF51
+A8 built-in AF-assist illuminator: on
+
+b1 ISO Step value: 1/3
+b2 ev steos for exposure control: 1/3
+b3 exp/falsh comp step: 1/3
+b4 easy exp comp: off
+b5: center-weighted area (12mm)
+b6 fine-tune optimal exposure: --
+	matrix: 0
+	center weighted: 0
+	spot: 0
+
+c1 shutter-release button AE-L: off
+c2 auto meter-off delay: 6s
+c3: self-timer: 
+	self-timer delay: 10s
+	number of shots: 1
+	interal between shots: .5s
+c4 monitor off delay:
+	playback: 10s
+	menus: 1m
+	information display: 10s
+	image review: 4s
+	live view: 10m
+
+d1 beep:
+	volume: off
+	pitch: H
+d2 CL mode speed: 2fps
+d3 max continue release: 100
+d4 exposure delay mode: off
+d5 file number seq: On
+d6 view finder grid display: off
+d7 ISO display and adjustment: off
+d8 screen tips: on
+d9 information display: auto
+d10 LCD illumunation: off
+d11 MB-D12 battery type: LR6
+d12 battery order: MB-D12
+
+e1 flash sync speed: 1/250
+e2 flash shutter speed 1/60
+e3 flash control for built in : ttl
+e4 modeling flash: on
+e5 auto bracketing set: ae and flash
+e6 auto bracketing (mode M): flash/speed
+e7 bracketing order: MTR > under> over
+
+(photo settings)
+f1 switch: lcd backlight
+f2 multi selector center button: 
+	mode: reset
+	playback: thumbnails
+	live view: reset
+f3 multi selector: off
+f4 assign fn button: 
+	fn button press: view finder virtual horizon
+	fn button + command dials: off
+f5 assign preview button
+	preview press: aperture
+	preview button + command dials: off
+f6 assign ae-l/af-l button
+	ae-l/af-l press: aperture
+	ae-l/af-l button + command dials: off
+f7 shutter speed & aperture lock: ??? (disabled)
+f8 assign bkt: auto bracketing
+f9 customize command dials
+	reverse rotation: 
+		expsoure comp: no
+		shutter speed/aperture: no
+	change main/sub: off
+	aperture settings: on
+	menus and playback: off
+f10 release button to use dial: no
+f11 slot empty release: ok
+f12 reverse inficators: - to +
+f13 assign moview record button: off
+f14 assign MB-D12 AF-on: AF-on
+f15 assign remote fn button: none
+
+(movie settings)
+g1 assign fn button: off
+g2 assign preview button: index
+g3 assign ae-l/af-l: ae/af lock
+g4 assign shutter button: take photos
+
+setting menu ----
+monitor brightness: auto
+clean image sensor startup shutdown:  off
+hdmi: auto
+	adanced: output range: full
+	advanced size: 100%
+	advanced view on screen: on
+flicker redunction: auto
+time zone and date:
+	timezone: UTC-5
+	format: YMD
+	daylight saving time: on
+language: english
+auto image rotation: on
+battery age : 0
+image transmitter: disabled
+network: disabled
+image comment: 
+	input: COMMENT
+	attach: on
+copyright
+	artist: Matthew Whited
+	copyright: Matthew Whited 2021
+	attach: on
+GPS
+	auto meter-off: off
+	position:
+	use GPS to set clock: off
+non-cpu lens data: 7
+	1: 35 f2.5
+	2: 24 f3.5
+	3: 58 f2.5
+	4: 58 f5.6
+	5: 24 f3.5
+	6: 58 f8
+	7: 80 f2.5
+	8: 80 f2.8
+	9:
+af fine tune: off
+	default: 0
+	list save values: none
+firmware version
+	A: 1.10
+	B: 1.10
+	L: 2.018
+
+	
+	
+	
+
+
+	
+
+
+
