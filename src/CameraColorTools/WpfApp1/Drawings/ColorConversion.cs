@@ -160,6 +160,9 @@ namespace WpfApp1.Drawings
         public static (double x, double y, double z) Rgb2Xyz((double red, double green, double blue) color, double factor = 1.0)
         {
             // https://mina86.com/2019/srgb-xyz-conversion/
+            // https://www.image-engineering.de/library/technotes/958-how-to-convert-between-srgb-and-ciexyz
+            // http://www.brucelindbloom.com/index.html?Eqn_RGB_XYZ_Matrix.html
+            // http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
 
             var primes = (red: color.red / factor, green: color.green / factor, blue: color.blue / factor);
             return primes;
